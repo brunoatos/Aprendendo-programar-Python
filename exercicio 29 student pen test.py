@@ -1,10 +1,4 @@
 lista_de_carros=['Honda Civic','Corolla','306','Mustang','Ferrari']
-print ('Seja bem Vindo!')
-print ('O comprador faz uma pergunta: Quantos carros tem na sua concessinaria? ')
-print ('temos :',len(lista_de_carros))
-print ('Tem quais carros?')
-print (lista_de_carros)
-print ('Senhor vai levar qual carro?')
-carro_escolhido=lista_de_carros.pop(4)
-print ('Seu carro escolhido foi:',carro_escolhido)
-print ('O Comprador pergunta o preço e o vendedor responde com risadas')
+for lista_de_carros in lista_de_carros:
+    print (lista_de_carros)
+#pois o loop for lista_de_carros até o final ou seja todos os itens dessa lista.
