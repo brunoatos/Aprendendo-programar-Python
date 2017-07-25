@@ -1,2 +1,5 @@
 mesa=['carlos','bruno','amaro']
-print (len(mesa))
+mesa.reverse()
+print (mesa)
+mesa.reverse()
+print (mesa)
