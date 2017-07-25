@@ -1,6 +1,5 @@
-lista=['virus','notebook','desktop','S.O','Memoria']
+lista=['nomes','carros','motos','faculdade']
 print (lista)
-del lista[0]
+lista.insert(0,'novo_virus')
 print (lista)
-
     
