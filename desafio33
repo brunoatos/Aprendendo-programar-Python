@@ -1,0 +1,5 @@
+b=10
+for i in range(1,10):
+print ('erro')
+
+#ocorreu o erro pois não está identado de forma correta. O certo é está abaixo da sintaxe com 3 espaços.
